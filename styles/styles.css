@@ -5,8 +5,9 @@ html{
     text-align:justify;
     line-height:1.2;
     margin:  0 auto;
-    padding: 20px;
-    width: fit-content;
+    padding:0;
+    width: 65%;
+    font-size: 20px;
   }
   /* comment */
   h1, h2 {
@@ -41,15 +42,22 @@ html{
   }
   
   .ita {
-    color:#04078b;
+    color:#020227;
     font-style:italic;
   }
   .bld {
-    color:#04078b;
+    color:#02022c;
     font-weight:800;
+  }
+  .whitespaced{
+    white-space: pre-wrap;
   }
   #form {
     color: #0f3a16;
+  }
+  #rawform {
+    padding: 0 auto;
+    font-size: inherit;
   }
   code{
       color:white;
@@ -65,11 +73,17 @@ html{
   }
   .precode{
       padding-left: 30px;
-      padding-right: 50px;
+      padding-right: auto;
   }
   #code2{
     font-family:"Source Code Pro", Courier, monospace;
+    font-size: 0.9em
   }
   .inputbox{
-      width: 20%;
+      width: 50%;
+      height: 1.5em;
+      font-size: 1em;
+  }
+  #textarea{
+    height: 7em;
   }
