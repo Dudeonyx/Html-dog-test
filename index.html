@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>This is a test page</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <h1>
+        The test begins
+    </h1>
+    <div id=preamble>
+        <h2 id=why>
+            The why?
+        </h2>
+        <div id=subpreamble>
+            <p>
+                The issue of
+                <em class="ita bld">why</em>
+                <em class=ita>is fairly obvious I believe</em>. A
+                <strong class=bld>Great Man</strong> once said
+                <q>
+                    <em class="bld ita">because it is there!</em>
+                </q> or some such vague shit.
+            </p>
+            <p>
+                Here it is in list form:
+            </p>
+            <ul>
+                <div class="bld ita">
+                    <li>&quot;because</li>
+                    <li>it</li>
+                    <li>is</li>
+                    <li>there! &quot;</li>
+                </div>
+                <li>
+                    <ol>
+                        <li>right</li>
+                        <li>where</li>
+                        <li>I</li>
+                        <li>want</li>
+                        <li>it!</li>
+                    </ol>
+
+                </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+    <h2>
+        The code
+    </h2>
+    <p>
+        This section contains the code. what is the code you ask?, well
+        <figure>
+            <blockquote>
+                The code is the
+                <code id=code1>code</code>
+            </blockquote>
+            <figcaption>
+                <em class=ita>Anonymous (circa. The present)</em>
+            </figcaption>
+        </figure>
+        Truly an inspiring quote.
+
+    </p>
+    <p>
+        so without further ado, here it is;
+    </p>
+    <div class=precode>
+        <pre>
+        <code id=code2>
+       &lt;h2&gt;
+           The code
+       &lt;/h2&gt;
+           &lt;p&gt;
+               This section contains the code. what is the code you ask?, well
+               &lt;figure&gt;
+                   &lt;blockquote&gt;
+                       The code is the
+                       &lt;code>code&lt;/code&gt;
+                   &lt;/blockquote&gt;
+                   &lt;figcaption&gt;
+                       &lt;em class=ita&gt;Anonymous (circa. The present)&lt;em&gt;
+                   &lt;/figcaption&gt;
+               &lt;/figure&gt;
+               Truly an inspiring quote.
+       
+           &lt;/p&gt;
+           &lt;p&gt;
+               so without further ado, here it is;
+           &lt;/p&gt;
+        </code>
+    </pre>
+    </div>
+
+
+
+    <div id=form>
+
+
+        <h2 id=formh2>
+            The majestic form in all its glory
+        </h2>
+        <p>
+            I am going to add a form now:
+        </p>
+        <form action=test.php method=get>
+            <p>
+                Name:
+            </p>
+            <input class="inputbox" name=name>
+            <p>Email:</p>
+            <input class="inputbox" type="email" name="email">
+            <p>
+                Password (because reasons):
+            </p>
+            <input class="inputbox" type=password name=password>
+            <p>
+                Choose a profile picture:
+            </p>
+            <input class="inputbox" type="file" name="profilepic" accept="image/*">
+            <p>
+                Enter your phone number:
+            </p>
+            <input class="inputbox" type="tel" name="tel" id="tel" placeholder="08000000000">
+            <p>
+                Age:
+            </p>
+            <input class="inputbox" type="number" name="age" min=18 max="80">
+            <p>
+                Address:
+            </p>
+            <input class="inputbox" name=address>
+            <p>
+                Body Measurements:
+            </p>
+            <input class="inputbox" name=bm>
+            <p>
+                Pick a gender or lack thereof:
+            </p>
+            <select name=gender>
+                <option>----</option>
+                <option>male</option>
+                <option>female</option>
+                <option>haemaphrodite</option>
+                <option>asexual</option>
+            </select>
+            <p>
+                Add pointless comments:
+            </p>
+            <textarea class="inputbox" cols=23 rows=5 name=drivel placeholder="pointlessness"></textarea>
+            <p>
+                <input type=checkbox checked name=spam> Would you like some more spam?</p>
+            <p>
+                <input type=submit value="Click me!">
+                <input type="reset">
+            </p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
